@@ -113,35 +113,3 @@ class ExamPage extends StatelessWidget {
   }
 }
 
-/*
-Container(
-width: 300,height: 300,color: Colors.red,margin: EdgeInsets.all(50),padding: EdgeInsets.all(20),
-alignment: Alignment.bottomCenter,
-child: Row(
-mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-crossAxisAlignment: CrossAxisAlignment.center,
-children: [
-Column(
-mainAxisAlignment: MainAxisAlignment.end,
-children: [
-IconButton(onPressed: (){}, icon: Icon(Icons.settings)),
-const Text('settings')
-],
-),
-Column(
-mainAxisAlignment: MainAxisAlignment.end,
-children: [
-IconButton(onPressed: (){}, icon: Icon(Icons.play_arrow)),
-const Text('play')
-],
-),
-Column(
-mainAxisAlignment: MainAxisAlignment.end,
-children: [
-IconButton(onPressed: (){}, icon: Icon(Icons.favorite)),
-const Text('favorite')
-],
-),
-],
-)
-),*/
